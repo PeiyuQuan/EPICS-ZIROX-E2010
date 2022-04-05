@@ -1,0 +1,32 @@
+#ZIROX ELECTRONIC E2010
+
+record(ai,"$(P)$(M)readoxygen")
+	{
+		field(DESC,"Oxygen concentration")
+		field(DTYP,"stream")
+		field(INP,"@ZIROXE2010.proto readoxygen $(PORT)")
+		field(EGU,"ppm")
+		field(PREC,"2")
+		field(SCAN,"1 second")
+	}
+
+record(ai,"$(P)$(M)readvoltage")
+	{
+		field(DESC,"Cell voltage")
+		field(DTYP,"stream")
+		field(INP,"@ZIROXE2010.proto readvoltage $(PORT)")
+		field(EGU,"mV")
+		field(PREC,"1")
+		field(SCAN,"1 second")
+	}
+  
+record(ai,"$(P)$(M)readtemp")
+	{
+		field(DESC,"Measuring temperature")
+		field(DTYP,"stream")
+		field(INP,"@ZIROXE2010.proto readtemp $(PORT)")
+		field(EGU,"C")
+		field(PREC,"1")
+		field(SCAN,"1 second")
+	}
+	

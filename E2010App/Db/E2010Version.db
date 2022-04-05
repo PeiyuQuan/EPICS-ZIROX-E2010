@@ -1,0 +1,6 @@
+record(lsi, "$(user):E2010:version") {
+    field(DTYP, "E2010 version")
+    field(DESC, "Version string")
+    field(SIZV, "$(SIZV=200)")
+    field(PINI, "YES")
+}
