@@ -1,5 +1,6 @@
 #ZIROX ELECTRONIC E2010
 
+Terminator = CR;
 
 readoxygen {out "M2"; in "M2%f";}
 readvoltage {out "A1"; in "A1%f";}
