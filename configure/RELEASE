@@ -20,20 +20,20 @@
 # Variables may be used before their values have been set.
 # Build variables that are NOT used in paths should be set in
 # the CONFIG_SITE file.
-SUPPORT=/home/quan/epics/synApps/support
+SUPPORT=/home/quan/epics/support
 # Variables and paths to dependent modules:
 #MODULES = /path/to/modules
 #MYMODULE = $(MODULES)/my-module
-ASYN=/home/quan/epics/synApps/support/asyn-master
-STREAM=/home/quan/epics/synApps/support/StreamDevice-master
-CALC=/home/quan/epics/synApps/support/calc-master
-AUTOSAVE=/home/quan/epics/synApps/support/autosave-master
+ASYN=$(SUPPORT)/asyn
+STREAM=$(SUPPORT)/stream
+CALC=$(SUPPORT)/calc
+AUTOSAVE=$(SUPPORT)/autosave
 
 # If using the sequencer, point SNCSEQ at its top directory:
 #SNCSEQ = $(MODULES)/seq-ver
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE = /home/quan/epics/base-7.0.6.1
+EPICS_BASE = /home/quan/epics/base
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
