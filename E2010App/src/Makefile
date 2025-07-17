@@ -55,7 +55,6 @@ E2010_DBD += drvAsynIPPort.dbd
 E2010_DBD += calc.dbd
 E2010_DBD += stream-scalcout.dbd
 E2010_DBD += stream.dbd
-E2010_DBD += as.dbd
 E2010_DBD += asSupport.dbd
 # E2010_registerRecordDeviceDriver.cpp derives from E2010.dbd
 E2010_SRCS += E2010_registerRecordDeviceDriver.cpp
